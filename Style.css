@@ -1,2 +1,8 @@
-.G { background: greenyellow}
-.G1 { background: gray}
+.G { background: greenyellow; border: black solid 5px }
+.G1 { background: gray }
+td {
+    border: black solid 1px;
+    width: 5px;
+    height: 5px;
+}
+tr { border: black solid 1px}
