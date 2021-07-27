@@ -1,2 +1,4 @@
-th {color: white}
-.W1 { color: white}
+th { color: white }
+.W1 { color: white; background: aqua }
+.W { border-spacing: 2px }
+.W2 { background: darkgray; text-align: right}
