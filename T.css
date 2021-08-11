@@ -1,0 +1,24 @@
+.T1 {border: black solid 2px; background: bisque; width: 700px; height: 500px; margin: 150px; position: relative;}
+.T2 {background: green; width: 100px; height: 100px; position: absolute;}
+.T3 {background: red; width: 10px; height: 10px; position: absolute; left: -5px; top: -5px; z-index: 1;}
+
+#B1 {left: 50%; width: 0; height: 0;}
+#B1 div {left: -50px; background: green; width: 100px; height: 100px; position: absolute;}
+
+#B2 {right: 0}
+
+#B3 {top: 50%; width: 0; height: 0;}
+#B3 div {top: -50px; background: green; width: 100px; height: 100px; position: absolute;}
+
+#B4 {top: 50%; left: 50%; width: 0; height: 0;}
+#B4 div {left: -50px; top: -50px; background: green; width: 100px; height: 100px; position: absolute;}
+
+#B5 {top: 50%; right: 0; width: 0; height: 0}
+#B5 div { top: -50px; right: 100px; background: green; width: 100px; height: 100px; position: absolute;}
+
+#B6 {bottom: 0}
+
+#B7 {}
+#B7 div {}
+
+#B8 {bottom: 0 ; right: 0}
