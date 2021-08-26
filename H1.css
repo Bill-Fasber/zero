@@ -1,0 +1,123 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.top-menu {
+    display: flex;
+    align-items: center;
+}
+.top-menu a {
+    padding: 20px;
+}
+.top-menu a:link,.top-menu a:visited {
+    text-decoration: none;
+    color: #555555;
+}
+.top-menu a:hover {
+    text-decoration: none;
+    color: #164e79;
+}
+
+.center {
+    display: flex;
+    margin-top: 150px;
+    justify-content: center;
+}
+.Design {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    background: #f8425e;
+}
+.Creative {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    background: #f8615c;
+}
+.Usable {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    background: #f88f5c;
+}
+.Original {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    background: #f8b45c;
+}
+.center div {
+    margin: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #ffffff;
+}
+.center div span {
+    padding-bottom: 10px;
+    font-size: x-large;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    border: #dddddd 1px solid;
+    padding: 50px;
+}
+.gallery div {
+    width: 280px;
+    height: 190px;
+    border: #ffffff 5px solid;
+    outline: #dddddd 1px solid;
+    margin-right: 20px;
+    margin-left: 20px;
+    background: #e1e2da;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    color: #666666;
+}
+
+.news {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    padding-bottom: 100px;
+    border-bottom: #dddddd dotted 1px;
+}
+.news div {
+    color: #555555;
+    width: 50%;
+    padding-left: 50px;
+    padding-right: 50px;
+ }
+#B1 {
+    border-left: #dddddd dotted 1px;
+}
+#ref:link,#ref:visited {
+    color: #164e79;
+    text-decoration: none;
+}
+#RM:link,#RM:visited {
+    color: #555555;
+    text-decoration: none;
+}
+
+.footer {
+    color: #555555;
+}
+.DM\|CC:link,.DM\|CC:visited {
+    text-decoration: none;
+    color: #164e79;
+}
+.DM\|CC:hover {
+    text-decoration: none;
+}
