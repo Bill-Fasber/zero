@@ -1,128 +1,22 @@
 .container {
-    width: 800px;
-    margin: 0 auto;
-    border: gray 1px solid;
-}
-.header {
-    display: flex;
-    justify-content: space-between;
-    padding-right: 20px;
-    padding-left: 20px;
-    text-align: center;
-    align-items: center;
-}
-.top-menu {
     display: flex;
     justify-content: space-around;
-    background: #ea9b23;
-    height: 70px;
-    align-items: center;
-    margin-bottom: 40px;
-}
-.top-menu a:link,.top-menu a:visited {
-    text-decoration: none;
-    color: #f7daaf;
-}
-.fota {
-    margin-bottom: 40px;
-}
-.fota img {
-    width: 100%;
-    margin-bottom: -1px;
-}
-
-.Inf {
-    display: flex;
-    justify-content: space-between;
-}
-.asides {
-    padding-left: 20px;
-    padding-right: 20px;
 }
 ul {
-    list-style-image: url("fota/STRELCA.jpg");
-    list-style-position: inside;
+    list-style-type: none;
+    border: black 3px solid;
+    border-radius: 5px;
 }
 li {
-    border-bottom: #e9e9e9 1px solid;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
-.asides a:link,.asides a:visited {
-    text-decoration-color: #f0a003;
-    color: #f0a003;
-    font-size: small;
-}
-.asides a:hover {
+a:link,a:visited {
     text-decoration: none;
-    color: #f0a003;
-    font-size: small;
+    color: black;
+}
+a:hover {
+    text-decoration: none;
+    color: black;
 }
 
-h1 {
-    margin-bottom: 10px;
-}
-.d2 {
-     margin-top: 40px;
- }
-.texts span a:link, .texts span a:visited {
-color: #f0a003;
-    text-decoration-color: #f0a003;
-}
-.texts span a:hover {
-    color: #f0a003;
-    text-decoration: none;
-}
-.texts p a:link, .texts p a:visited {
-    color: #f0a003;
-    text-decoration-color: #f0a003;
-}
-.texts p a:hover {
-    color: #f0a003;
-    text-decoration: none;
-}
 
-.texts div {
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 50px;
-    margin-bottom: 100px;
-}
-.texts .read-more:link {
-    border: #e9e9e9 1px solid;
-    color: #f0a003;
-    text-decoration: none;
-    padding: 5px;
-}
-.texts .read-more:visited {
-    border: #e9e9e9 1px solid;
-    color: #f0a003;
-    text-decoration-color: #f0a003;
-    padding: 5px;
-}
-.texts .read-more:hover {
-    border: #e9e9e9 1px solid;
-    color: #f0a003;
-    background: #f9f1e4;
-    padding: 5px;
-    text-decoration: none;
-}
-.Inf {
-    border-bottom: #e9e9e9 1px solid;
-}
-
-.footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: small;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-.footer a:link,.footer a:visited{
-color: #f0a003;
-text-decoration-color: #f0a003;
-}
-.footer a:hover {
-    color: #f0a003;
-    text-decoration: none;
-}
