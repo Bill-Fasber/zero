@@ -1,3 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.cont {
+    background: #ffffff;
+}
+
+.columns{
+    background: #ffffff;
+}
 img {
     object-fit: cover;
     width: 100%;
@@ -5,4 +16,16 @@ img {
 }
 .header {
     margin-bottom: 20px;
+}
+.photo {
+    margin-bottom: 10px;
+}
+.text {
+    margin-left: 5px;
+    margin-bottom: -2px;
+}
+span {
+    color: #a6a6a6;
+    margin-left: 5px;
+    margin-bottom: 30px;
 }
