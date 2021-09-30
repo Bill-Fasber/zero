@@ -1,30 +1,25 @@
-* {
-    margin: 0;
-    padding: 0;
-}
 .header {
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    background: gray;
-    border: gray;
-    height: 500px;
+    border: 1px solid black;
+    height: 800px;
+    flex-direction: row;
+    align-items: stretch;
 }
+
 .aside-l {
-    text-align: center;
-    width: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
     background: black;
-    border: black;
+}
+.icon {
+    text-align: center;
     color: white;
-    height: auto;
+    height: 50px;
 }
-.text-l {
+.test-l {
+    color: white;
+    margin: auto;
+    font-weight: bolder;
     transform: rotate(-90deg);
-    text-align: center;
-    width: 100%;
-    font-weight: bold;
-}
-.text-c {
-    font-weight: bold;
-    text-align: center;
 }
