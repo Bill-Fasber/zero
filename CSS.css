@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .header {
     display: flex;
     border: 1px solid black;
@@ -15,11 +20,11 @@
 .icon {
     text-align: center;
     color: white;
-    height: 50px;
 }
 .test-l {
     color: white;
     margin: auto;
     font-weight: bolder;
     transform: rotate(-90deg);
+    font-family: 'Roboto', sans-serif;
 }
