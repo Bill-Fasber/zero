@@ -174,3 +174,23 @@
     color: #000000;
     font-family: "Oswald Regular"
 }
+
+.WHY-CHOOSE-US {
+    background: #fcfcfc;
+}
+.foto-text {
+    display: flex;
+    font-size: smaller;
+    flex-direction: row;
+}
+.name {
+    font-family: "Oswald Bold";
+}
+.name-down-text {
+    font-family: "PT Sans Web Italic";
+    color: #a5a5a5;
+}
+.text {
+    color: gray;
+    width: 700px;
+}
