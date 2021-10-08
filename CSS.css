@@ -6,24 +6,7 @@
     display: flex;
     flex-direction: column;
 }
-@font-face {
-    font-family: 'Oswald Bold';
-    src: url('Oswald-Bold.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Oswald Light';
-    src: url('Oswald-Light.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Oswald Regular';
-    src: url('Oswald-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
+
 
 .header {
     display: flex;
@@ -62,7 +45,7 @@
     flex-direction: column;
 }
 .text-c {
-    padding-right: -100px;
+    width: 165px;
 }
 .text-c h2 {
     color: #000000;
@@ -75,17 +58,119 @@
 .test-down {
     font-size: 10px;
     color: #656565;
+    width: 260px;
 }
-a:link {
+.test-down a:link {
     color: #000000;
     font-family: "Oswald Regular"
 }
-a:hover {
+.test-down a:hover {
     color: #000000;
     text-decoration: none;
     font-family: "Oswald Regular"
 }
-a:visited {
+.test-down a:visited {
+    color: #000000;
+    font-family: "Oswald Regular"
+}
+
+.ABOUT-US{
+    background: #ffffff;
+    padding-bottom: 20px;
+}
+.caption {
+    color: #1a1a1a;
+    margin-top: 50px;
+    text-align: center;
+    font-size: x-large;
+    font-family: "Oswald Bold";
+}
+.wave i {
+    display: block;
+    background-image: url('photo/photo_2021-10-06_08-26-33.jpg');
+    width: 31px;
+    height: 6px;
+    margin: 20px auto;
+}
+.Block-3S {
+    display: flex;
+    justify-content: space-around;
+}
+
+.text-B3 {
+    font-family: Lobster;
+    font-size: small;
+    color: #0f0f0f;
+}
+.text-B3 i {
+    margin-left: 4px;
+    width: 10px;
+}
+.Block p {
+    font-size: smaller;
+    color: #707070;
+    width: 200px;
+}
+
+
+.OUR_WORKS {
+    background: #f9f9f9;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.menu_OUR_WORKS {
+    margin: 20px auto;
+    text-align: center;
+}
+.menu_OUR_WORKS a:link{
+    font-family: "Oswald Regular";
+    color: black;
+    text-decoration: none;
+}
+.menu_OUR_WORKS a:hover{
+    font-family: "Oswald Regular";
+    color: black;
+}
+.menu_OUR_WORKS a:visited{
+    font-family: "Oswald Regular";
+    color: #707070;
+    text-decoration: none;
+}
+
+.Photo {
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+.foto-Photo {
+    background: #e9e9e9;
+    width: 200px;
+    height: 250px;
+}
+.test-down-foto {
+    margin-top: 10px;
+    text-align: center;
+    font-family: Lobster;
+    font-size: small;
+    border-bottom: #e9e9e9 1px solid;
+    padding-bottom: 10px;
+    width: 180px;
+}
+.test-down-foto span {
+    color: #717171;
+    font-family: "PT Sans Web Italic";
+}
+.OUR_WORKS a:link {
+    color: #000000;
+    font-family: "Oswald Regular"
+}
+.OUR_WORKS a:hover {
+    color: #000000;
+    text-decoration: none;
+    font-family: "Oswald Regular"
+}
+.OUR_WORKS a:visited {
     color: #000000;
     font-family: "Oswald Regular"
 }

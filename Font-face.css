@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Oswald Bold';
+    src: url('TTF/Oswald-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Oswald Light';
+    src: url('TTF/Oswald-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Oswald Regular';
+    src: url('TTF/Oswald-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Lobster';
+    src: url('TTF/Lobster.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'PT Sans Web Bold';
+    src: url('TTF/PT_Sans-Web-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'PT Sans Web Bolditalic';
+    src: url('TTF/PT_Sans-Web-BoldItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'PT Sans Web Italic';
+    src: url('TTF/PT_Sans-Web-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'PT Sans Web Regular';
+    src: url('TTF/PT_Sans-Web-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
