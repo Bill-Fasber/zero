@@ -8,12 +8,30 @@
         text-align: justify;
         margin: 0 auto 10px;
     }
-    .OUR_WORKS .Photo {
+    .OUR-WORKS .Photo {
         flex-direction: column;
         width: 250px;
     }
-    .OUR_WORKS .Photo div {
+    .OUR-WORKS .Photo div {
         align-self: center;
     }
-
+    .Photo-1 {
+        flex-direction: column;
+        width: 250px;
+    }
+    .text-apple {
+        text-align: center;
+    }
+    .text-apple h1{
+        color: #292929;
+    }
+    .text-apple p{
+        color: #292929;
+    }
+    .text-apple a{
+        color: #292929;
+    }
+    .apple-phone {
+        display: none;
+    }
 }
