@@ -332,6 +332,11 @@
 }
 .logo li img {
 }
+.citat {
+    background: #e9e9e9;
+    width: 100%;
+    height: 100%;
+}
 
 .OUR-NEWS {
     background: #ffffff;
@@ -401,10 +406,7 @@
     background: #f9f9f9;
     padding-bottom: 30px;
 }
-.form {
-    width: 200px;
-    margin: 0 auto;
-}
+
 .zip {
     margin-bottom: 20px;
     font-family: "PT Sans Web Regular";
@@ -424,11 +426,32 @@
     color: #000000;
     font-family: "Oswald Regular"
 }
-.send {
-    text-align: center;
-    width: 100%;
+.input-text {
+    background: inherit;
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+    border-radius: 0;
+    margin-bottom: 10px;
+    font-size: large;
 }
-
+.input-text:focus {
+    outline: none;
+}
+.input-text::placeholder {
+    text-align: left;
+    color: #4d4d4d;
+    font-family: "PT Sans Web Regular";
+}
+.form {
+    text-align: center;
+}
+.input-button {
+    background: inherit;
+    border: none;
+    text-decoration: underline;
+    font-family: "Oswald Regular";
+    font-size: large;
+}
 .CONTACT-US {
     background: #ffffff;
 }

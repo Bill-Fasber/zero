@@ -64,9 +64,6 @@
     .logo {
         flex-wrap: wrap;
     }
-    .citat {
-        display: none;
-    }
     .Contact {
         flex-direction: column;
     }
