@@ -15,12 +15,17 @@
     .OUR-WORKS .Photo div {
         align-self: center;
     }
-    .Photo-1 {
+    .foto-text{
         flex-direction: column;
-        width: 250px;
     }
-    .text-apple {
-        text-align: center;
+   .foto-foto-text {
+       margin: 0 auto 10px;
+   }
+    .text-foto-text .text{
+        width: 375px;
+    }
+    .APPLE-PHONE {
+        justify-content: center;
     }
     .text-apple h1{
         color: #292929;
@@ -28,10 +33,41 @@
     .text-apple p{
         color: #292929;
     }
-    .text-apple a{
+    .text-apple a:link{
+        color: #292929;
+    }
+    .text-apple a:hover{
+        color: #292929;
+    }
+    .text-apple a:visited{
         color: #292929;
     }
     .apple-phone {
         display: none;
+    }
+    .down-APPLE-PHONE {
+        flex-wrap: wrap;
+    }
+    .Photo-1 {
+        flex-direction: column;
+        width: 250px;
+    }
+    .text-and-grafik {
+        flex-direction: column-reverse;
+    }
+    .text-and-grafik div {
+        margin: 0 auto;
+    }
+    .text-and-grafik div img {
+        margin-bottom: 20px;
+    }
+    .logo {
+        flex-wrap: wrap;
+    }
+    .citat {
+        display: none;
+    }
+    .Contact {
+        flex-direction: column;
     }
 }
