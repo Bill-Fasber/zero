@@ -61,6 +61,12 @@
     .text-and-grafik div img {
         margin-bottom: 20px;
     }
+    .background {
+        background: none;
+        width: 360px;
+        height: 277px;
+        margin: 0 auto;
+    }
     .logo {
         flex-wrap: wrap;
     }
